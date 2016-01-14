@@ -1,11 +1,11 @@
 #menup ul{
 	width: 300px;
 	height: auto;
-	background-color: #2f4f4f;
+	background-color: #5c5c5c;
 	display: block;
 	margin: 0;
 	padding: 0;
-	width: 306px;
+	width: 275px;
 }
 #menup li{
 	list-style: none;
@@ -21,7 +21,7 @@
 }
 #menup li:hover{
 	background: #FF0000;
-	width: 266px;
+	width: 300px;
 }
 #menup li{
 	-webkit-transition:all .5s ease;
