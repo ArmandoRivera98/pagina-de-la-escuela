@@ -1,0 +1,45 @@
+#menup ul{
+	width: 300px;
+	height: auto;
+	background-color: #2f4f4f;
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 306px;
+}
+#menup li{
+	list-style: none;
+	display: block;
+	width: 100%;
+	height: auto;
+	border-bottom: 2px solid #fff;
+	color: white;
+	font-family: helvetica;
+	font-size: 12px;
+	padding: 20px;
+	text-align: center;
+}
+#menup li:hover{
+	background: #FF0000;
+	width: 266px;
+}
+#menup li{
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	transition:all .5s ease;
+}
+h1{
+	font-family: helvetica;
+	color: #8fbc8f
+}
+#menup li a{
+	bottom right no-repeat;
+	color:yellow;
+	display:block;
+	font-weight:normal;
+	line-height:15px;
+	margin:0px;
+	padding:0px 25px;
+	text-align:center;
+	text-decoration:none;
+	}
