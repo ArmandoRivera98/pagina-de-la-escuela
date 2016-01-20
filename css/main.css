@@ -27,7 +27,7 @@ body {
     padding: 0;
 }
 #nav {
-    background-color: #F5F5F5;
+    background-color: #819FF7;
     border-bottom: 5px solid #333333;
     float: left;
     margin-left: 0%;
@@ -40,11 +40,11 @@ body {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
     color: #333333;
     display: none;
-    left: 0;
+    left: 2%;
     padding: 2%;
     position: absolute;
     top: 49px;
-    width: 100%;
+    width: 96%;
     z-index: 2
 }
 #nav > li {
