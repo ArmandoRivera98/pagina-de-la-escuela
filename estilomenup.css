@@ -1,7 +1,7 @@
 #menup ul{
 	width: auto;
 	height: auto;
-	background-color: #5c5c5c;
+	background-color: #819FF7;
 	display: block;
 	margin: 0;
 	padding: 0;
@@ -13,14 +13,14 @@
 	width: 100%;
 	height: auto;
 	border-bottom: 2px solid #fff;
-	color: white;
+	color: black;
 	font-family: helvetica;
-	font-size: 12px;
+	font-size: 16px;
 	padding: 20px;
 	text-align: center;
 }
 #menup li:hover{
-	background: #FF0000;
+	background: #F55856;
 	width: 105%;
 }
 #menup li{
@@ -34,12 +34,12 @@ h1{
 }
 #menup li a{
 	bottom right no-repeat;
-	color:yellow;
+	color:white;
 	display:block;
 	font-weight:normal;
 	line-height:15px;
 	margin:0px;
-	padding:0px 25px;
+	padding:0px 20px;
 	text-align:center;
 	text-decoration:none;
 	}
