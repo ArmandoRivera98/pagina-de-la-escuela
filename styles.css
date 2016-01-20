@@ -2,9 +2,11 @@
 	margin:0;
 	padding:0;
 }
+.container{
+	padding: 10px 10%;
+}
 
 body {
-;
 	width:100%;
 }
 .main {
@@ -35,7 +37,7 @@ body {
 
 .slidesjs-pagination li a {
 	display:block;
-	padding:10.3px 15px;
+	padding:10.5px 15px;
 	color:#fff;
 	text-decoration:none;
 }
