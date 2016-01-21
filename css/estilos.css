@@ -1,23 +1,38 @@
+/*estilos generales*/
 * {
-    margin: 0;
-    padding: 0;
+	margin:0;
+	padding:0;
+}
+#textoportada {
+    width: 100%; height: 100%;
+}
+#textoportada img {
+    width: 100%; height: 100%;
 }
 html {
     background-color: #fff;
     height: 100%;
 }
-body {
-    color: #333333;
-    font: 0.75em/1.5em Arial,sans-serif;
+header {
+	background:#f2f2f2;
+	color:#fff;
 }
+footer {
+	background:#5882FA;
+	color:#fff;}
 .container {
-    margin-left: auto;
+	margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
     width: 100%;
+	padding: 10px 10%;
 }
-
-/* common and top level styles */
+body {
+	color: #333333;
+    font: 0.75em/1.5em Arial,sans-serif;
+	width:100%;
+}
+/* menu horizontal */
 #nav span {
     display: none;
 }
@@ -144,4 +159,96 @@ body {
         display: block;
         width: auto;
     }
+}
+/*estilos banner*/
+.main {
+	width:95%;
+	background:#f2f2f2;
+	max-width:1000px;
+	margin:20px auto;
+}
+.slides {
+	width:100%;
+	position: relative;
+	z-index: 1
+}
+.slides img {
+	width:100%;
+}
+.slidesjs-pagination {
+	background:#424242;
+	list-style:none;
+	overflow:hidden;
+}
+.slidesjs-pagination li {
+	float:left;
+}
+.slidesjs-pagination li a {
+	display:block;
+	padding:10.5px 15px;
+	color:#fff;
+	text-decoration:none;
+}
+.slidesjs-pagination li a:hover {
+	background:#000;
+}
+
+.slides .active {
+	background:#000;
+}
+
+.slidesjs-navigation{
+	background:#000;
+	color:#fff;
+	text-decoration:none;
+	display:inline-block;
+	padding:12px 20px;
+	float:right;
+}
+
+/*estilo menu lateral*/
+#menul ul{
+	width: auto;
+	height: auto;
+	background-color: #819FF7;
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#menul li{
+	list-style: none;
+	display: block;
+	width: 100%;
+	height: auto;
+	border-bottom: 2px solid #fff;
+	color: black;
+	font-family: helvetica;
+	font-size: 16px;
+	padding: 20px;
+	text-align: center;
+}
+#menul li:hover{
+	background: #F55856;
+	width: 105%;
+}
+#menul li{
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	transition:all .5s ease;
+}
+h1{
+	font-family: helvetica;
+	color: #8fbc8f
+}
+#menul li a{
+	bottom right no-repeat;
+	color:white;
+	display:block;
+	font-weight:normal;
+	line-height:15px;
+	margin:0px;
+	padding:0px 20px;
+	text-align:center;
+	text-decoration:none;
 }
